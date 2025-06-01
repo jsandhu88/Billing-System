@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+  color: aqua;
+}
+
+.Mdirection{
+  direction: rtl;
+  transform-origin: right;
+  position: absolute;
+  right: 0%;
+}
