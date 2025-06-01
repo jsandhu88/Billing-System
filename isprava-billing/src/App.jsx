@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Dashboard />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Login />} />
+        <Route path="/login" element={<Dashboard />} />
+        <Route path="/signup" element={<Dashboard />} />
         <Route path="/new-invoice" element={<InvoiceForm />} />
         <Route path="/invoice/:id" element={<InvoiceForm />} />
         <Route path="/invoices" element={<SearchInvoices />} />
